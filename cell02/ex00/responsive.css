@@ -1,0 +1,15 @@
+.a {
+    display: flex;
+}
+
+.d {
+    flex: 50%;
+    padding: 70px;
+    background-color: palegoldenrod;
+}
+
+.de {
+    flex: 50%;
+    padding: 70px;
+    background-color: aquamarine;
+}
