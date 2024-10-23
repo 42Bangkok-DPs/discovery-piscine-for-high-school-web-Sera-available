@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 10px;
+    background-color:rgb(204, 235, 235);
+}
+
+li {
+    position: relative;
+    display: inline-block;
+}
+
+a {
+    padding: 10px 20px;
+    display: block;
+}
+
+.list {
+    text-align: left;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: rgb(220, 237, 245);
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.list li {
+    display: block;
+}
+
+.list a {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.list a:hover {
+    background-color: rgb(228, 203, 180);
+    color: rgb(142, 98, 9);
+}
+
+li:hover .list {
+    display: block;
+}
