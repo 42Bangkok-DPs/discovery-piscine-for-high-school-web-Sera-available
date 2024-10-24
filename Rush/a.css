@@ -1,26 +1,115 @@
 body {
     margin: 0;
-    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(210, 210, 210);
 }
 
-#navi-bar {
+.navbar {
     position: sticky;
-    top: 0;
-    overflow: hidden;
-    background-color: black;
-    padding: 20px;
+    background-color: #333333;
     display: flex;
     justify-content: space-between;
+    padding: 20px 20px;
 }
 
-#navi-bar a {
-    float: right;
-    display: block;
-    color: rgb(190, 186, 186);
-    text-align: center;
-    margin: auto;
+.navleft a {
+    color: rgb(163, 163, 163);
     text-decoration: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
+    padding: 12px 17px;
+    font-size: 1.4em;
+    transition: color 0.2s;
 }
 
+.navright a {
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+
+.navleft a:hover {
+    color: rgb(216, 216, 216);
+}
+
+.navright a:hover {
+    color: rgb(216, 216, 216);
+}
+
+.content {
+    padding: 0;
+    margin: 0;
+}
+
+.Section0-content {
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.Section1-content {
+    display: flex;
+    background-color:rgb(78, 95, 89);
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.Section2-content {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec2con-image {
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+    height: auto;
+}
+
+.sec2con-text {
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+.Section3-content {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #a1a1a1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec3con-item {
+    display: flex;
+    align-items: center;
+    margin: 0 1%;
+}
+
+.sec3-image {
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+}
+
+.Section3-content p {
+    font-size: small;
+}
